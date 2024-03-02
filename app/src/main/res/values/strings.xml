@@ -4,4 +4,6 @@
     <string name="designed_by">Designed by \n Neat Roots</string>
     <string name="logo_description">Waves of Food Logo</string>
     <string name="next">Next</string>
+    <string name="email_hint">Email or Phone Number</string>
+    <string name="password_hint">Password</string>
 </resources>
