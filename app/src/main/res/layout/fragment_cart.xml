@@ -38,7 +38,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/white_button"
+        android:background="@drawable/proceed_button"
         android:elevation="20dp"
         android:text="Proceed"
         android:textSize="16sp"
