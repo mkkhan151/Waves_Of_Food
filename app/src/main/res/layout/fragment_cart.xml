@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".fragment.CartFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -22,31 +23,32 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/cartRecyclerView"
-        tools:listitem="@layout/cart_item"
-        android:layout_width="432dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/proceedButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        tools:listitem="@layout/cart_item" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/proceedButton"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/proceed_button"
         android:elevation="20dp"
-        android:text="Proceed"
-        android:textSize="16sp"
-        android:letterSpacing="0.1"
         android:fontFamily="@font/yeonsung_regular"
+        android:letterSpacing="0.1"
+        android:text="Proceed"
         android:textAllCaps="false"
         android:textColor="@color/textColor"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

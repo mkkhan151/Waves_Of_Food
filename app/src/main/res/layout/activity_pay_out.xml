@@ -14,7 +14,8 @@
         android:orientation="vertical">
 
         <ImageButton
-            android:id="@+id/button5"
+            android:contentDescription="Back Button"
+            android:id="@+id/payOutBackButton"
             android:layout_marginTop="32dp"
             android:layout_marginStart="16dp"
             android:background="@android:color/transparent"
@@ -195,16 +196,15 @@
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
-            <EditText
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:background="@android:color/transparent"
-                android:ems="10"
                 android:fontFamily="@font/lato_regular"
                 android:gravity="end"
                 android:inputType="none"
-                android:paddingEnd="32dp"
+                android:paddingEnd="24dp"
                 android:text="$ 35"
                 android:textColor="@color/textColor"
                 android:textSize="20sp" />
